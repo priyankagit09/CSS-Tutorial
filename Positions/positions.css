@@ -1,0 +1,112 @@
+/* static, absolute, relative, fixed  */
+
+/* fixed is used for navbar */
+
+
+
+
+
+ /*  absolute-  it depends on body or parent
+ by default body is relative, compulsory for parent use relative
+
+div {
+    border: 5px solid red;
+    background-color: yellow;
+    margin-top: 40px;
+    position: relative;
+    
+}
+
+.one {
+    background-color: blue;
+    color: white;
+    
+    top: 100px;
+}
+
+.two {
+    background-color: aquamarine;
+    color: black;
+    
+}  
+.special {
+    background-color: lightcoral;
+    font-size: 25px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}  
+
+
+
+
+
+
+ */
+
+
+
+
+
+
+ /* relative+ =  from where it was it moves it
+ won't depends on other element and parent
+
+ div {
+    border: 5px solid red;
+    background-color: yellow;
+    margin-top: 40px;
+    
+}
+
+.one {
+    background-color: blue;
+    color: white;
+    position: relative;
+    top: 100px;
+}
+
+.two {
+    background-color: aquamarine;
+    color: black;
+}   */
+
+
+
+
+
+
+
+
+
+/* static- is what browser  defines one element
+after next element*/
+
+/* div {
+    border: 5px solid red;
+    background-color: yellow;
+    margin-top: 40px;
+    position: static;
+}
+
+.one {
+    background-color: blue;
+    color: white;
+}
+
+.two {
+    background-color: aquamarine;
+    color: black;
+} */
+
+div {
+    border: 5px solid orange;
+    position: relative;
+    width: 200px;
+    height: 500px;
+}
+p {
+    top: 20px;
+    position: absolute;
+  
+}

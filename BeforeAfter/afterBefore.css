@@ -1,0 +1,79 @@
+
+ /*content required  */
+ /* after, before   */
+ /* display: block,  by  default inline */
+/* for images before after won't work */
+/* used to style specific part of selected 
+element */
+
+/* syntax selector::pseudo-element {
+    property: value; 
+    
+    selector can be tag, id, class */
+
+/* first-letter, first-line, before,after, selection-if we select line that background-color and color how it
+should appear adding colours */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1::first-letter {
+   text-transform: uppercase;
+   color: orange;
+}
+p::first-line {
+    color: blue;
+}
+h1::before {
+    content: "I am before element "
+}
+h2::after {
+    content: " I am after element used"
+}
+p::selection {
+    background-color: red;
+    color: white;
+}
+
+div {
+    width: 60vw;
+    margin: 100px auto;
+    position: relative;
+    border: 5px solid red; */
+    height: 30vh;
+
+}
+
+img {
+    width:100%;
+    height: 100%;
+    display: block; 
+    z-index: 0;
+    
+    /* boder to remove bcz it is inline */
+}
+
+div::before {
+    content: ""; 
+    border: 5px solid orangered;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* box-sizing: border-box; */
+    top: -50px;
+    left: -50px;
+    z-index: -2;
+} 
+div::after {
+    content: ""; 
+   background-color: pink;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* box-sizing: border-box; */
+    top: -25px;
+    left: -25px;
+    z-index: -1;
+} 

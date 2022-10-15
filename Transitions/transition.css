@@ -1,0 +1,60 @@
+/* transition delay-How much late(5s) element should come and go */
+/* transition duration-millisec, sec(4s) */
+/* transition property - background, fontsize, etc*/
+/* property,timedelay(ms or s), timing-function, delay */
+/* all= what all properties given in hover*/
+
+
+
+div {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 5px;;
+}
+
+.one {
+    background: red;
+    transition: width 1s, height 1s;
+}
+
+.three {
+    background: green;
+    transition: border-radius 2s;
+}
+
+.one:hover {
+    width: 155px;
+    height: 155px;
+    
+}
+
+.three:hover {
+    border-radius: 150px;
+    
+    background-color: blue;
+
+}
+.div {
+    width: 150px;
+    color: white;
+}
+
+.ease {
+    background-color: brown;
+    transition: 200
+}
+.ease-in {
+    background: blue;
+}
+.ease-out {
+    background-color: purple;
+}
+.ease-in-out{
+    background-color: orange;
+}
+.linear {
+    background-color: aquamarine;
+}
+.ease:hover {
+    width: 200px;
+}

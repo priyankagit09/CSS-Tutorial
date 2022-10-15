@@ -1,0 +1,31 @@
+/* scale()- default value 1 to increase and decrease size */
+/* scale is used in hover to increase height, weight value can be (1,2,3,4,5...)*/
+/* rotate-clockwise, anticlock (value in degree should give (45deg), (-45deg))*/
+/* rotateX, rotateY */
+/*translate-moving element from x to y or y to x (value can be in px or %) */
+/* translateX, translateY */
+/* skew-to slant (value in deg)*/
+/* skewY, skewX */
+div {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 150px;
+    
+}
+.one {
+    background-color: red;
+   
+    /* transform: rotateX(50deg); */
+    /* transform: translateX(30px);
+    transform: translate(30px, -30px); */
+}
+.two {
+    background-color: blue;
+    /* transform: translateY(30px); */
+      /*transform: scale(.5) */
+      transform: skew(45deg);
+}
+.two:hover {
+    
+   transform: scaleY(.5)
+}

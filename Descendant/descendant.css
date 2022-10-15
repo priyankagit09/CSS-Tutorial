@@ -1,0 +1,10 @@
+
+/* Inside div all elements color red  (child) */
+div h1,p{
+    color: red;
+}
+
+/* div direct children only (desendant)*/
+div > h1 {
+    color: blue;
+}

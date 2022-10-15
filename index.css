@@ -1,0 +1,74 @@
+/* CSS Syntax Explanation */
+/* Css Rule */
+ /* Decoration Block */
+ /* Property */
+ /* Value */
+
+  /* float left kept then clear left 
+   float right kept then clear right 
+   float kept in two direction then clear both sides */
+   /* overflow : hidden; (if border should not cross use hidden property) */
+   
+   
+/* .banner {
+
+  border: 5px solid red;
+  padding: 10px;
+  overflow: hidden;
+   
+
+}
+
+
+p {
+  clear: right; 
+}
+.one {
+  width: 200px;
+  float: right;
+}
+.two {
+  height: 700px;
+  float: left;
+  width: 200px;
+  
+}
+
+
+ */
+
+
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ .one {
+    float: left;
+    background: orange;
+    width: 33.33%;
+    height: 400px;
+    color: white;
+    
+ }
+
+ .two {
+    float: left;
+    background: blue;
+    width: 33.33%;
+    height: 400px;
+    color: white;
+ }
+
+ .three {
+    float: left;
+    background: green;
+    width: 33.33%;
+    height: 400px;
+    color: white;
+ }
+ h1 {
+    clear: left;
+ }

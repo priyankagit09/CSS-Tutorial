@@ -1,0 +1,22 @@
+  a:link {
+    color: red;
+  }
+
+  a:visited {
+    color: black;
+  }
+  
+  
+  
+  a:hover {
+    color: pink;
+  }
+
+  a:active {
+    color: green;
+  }
+
+:root{
+    
+}
+   
